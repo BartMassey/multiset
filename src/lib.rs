@@ -6,5 +6,6 @@
 //! count of distinct values.
 
 mod multiset;
+mod subset_order;
 
 pub use multiset::{HashMultiSet};
