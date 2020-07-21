@@ -8,7 +8,7 @@ use std::ops::{Add, AddAssign, Sub, SubAssign};
 use std::cmp::Ordering;
 
 /// A hash-based multiset.
-#[derive(Clone)]
+#[derive(Clone, Debug)]
 pub struct HashMultiSet<K>
 {
     elem_counts: HashMap<K, usize>
